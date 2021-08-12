@@ -1,0 +1,68 @@
+
+body{
+    overflow-x: hidden;
+   font-family: 'Poppins', sans-serif;
+}
+
+/*Esto es el nav*/
+nav ul, li{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: .9em;
+    margin: 4vh;
+
+}
+
+ul li img{
+position: absolute;
+right:250px;
+
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+    color: rgb(0,0,0,0.165);
+    margin-left:90px;
+    font-size: 6em;
+}
+
+/*titulo header*/
+.jumbotron h2{
+    color:#2e266f;
+   margin-left: 90px;
+   margin-top: -100px;
+   font-size: 3em;
+}
+
+
+
+.rectangulo-rojo{
+    position: absolute;
+    right: -2rem;
+    margin-top: -2rem;
+    width: 65vh;
+    height: 200vh;
+    background-color: #fe043c;
+}
+
+
+/*imagen de plato de comida*/
+.jumbotron .comida{
+    position: absolute;
+    width: 500px;
+    margin: -400px 500px;
+    right:-20rem ;
+}
+
+
+
+.logo-red {
+    margin-top: -8rem;
+    margin-left: 5rem;
+    font-weight: bold;
+    color:#fe043c;
+    font-size: 3em;
+}
+ 
