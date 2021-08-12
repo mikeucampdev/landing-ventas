@@ -65,4 +65,24 @@ right:250px;
     color:#fe043c;
     font-size: 3em;
 }
+
+.jumbotron  .btn-one{
+    background-color: white;
+    padding: 5px 80px;
+    border:  1px solid;
+    margin: 25px 80px;
+    height: 40px;
+    font-size: .8em;
+    text-align: center;
+    
+}
+
+.jumbotron .btn-two{
+    background-color: #fe043c;
+    border: 1px solid red;
+    border-radius: 10px 0px 0px 0px;
+    padding: 5px 20px;
+    
+
+}
  
