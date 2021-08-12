@@ -12,8 +12,10 @@ nav ul, li{
     list-style: none;
     font-size: .9em;
     margin: 4vh;
+    
 
 }
+
 
 ul li img{
 position: absolute;
@@ -30,7 +32,7 @@ right:250px;
 
 /*titulo header*/
 .jumbotron h2{
-    color:#2e266f;
+   color:#2e266f;
    margin-left: 90px;
    margin-top: -100px;
    font-size: 3em;
@@ -43,7 +45,7 @@ right:250px;
     right: -2rem;
     margin-top: -2rem;
     width: 65vh;
-    height: 200vh;
+    height: 100vh;
     background-color: #fe043c;
 }
 
@@ -67,22 +69,48 @@ right:250px;
 }
 
 .jumbotron  .btn-one{
+    
     background-color: white;
-    padding: 5px 80px;
+    padding: 5px 90px;
     border:  1px solid;
     margin: 25px 80px;
     height: 40px;
-    font-size: .8em;
-    text-align: center;
-    
+    font-size: .8em;   
+       
 }
+
 
 .jumbotron .btn-two{
-    background-color: #fe043c;
-    border: 1px solid red;
-    border-radius: 10px 0px 0px 0px;
-    padding: 5px 20px;
-    
+ position: absolute; 
+text-align: center;
+margin:-64px 0px 0px 325px;   
 
 }
+
+
+.btn-two{
+    color: white;
+    background-color: #fe043c;
+    border: 1px solid red;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5.5px 30px;
+    
+}
+
+
+.jumbotron .opciones{
+    margin-left: 90px;
+    margin-top: 0px;
+    font-size: 2em;
+    font-weight:lighter;
+    color: #2e266f;
+
+}
+
+
+
+
+/*seccion 2*/
+
+
  
