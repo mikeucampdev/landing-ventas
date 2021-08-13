@@ -5,23 +5,28 @@ body{
 }
 
 /*Esto es el nav*/
-nav ul, li{
+
+
+nav ul, li a{
+    color: black;
     display: flex;
     justify-content: center;
     text-decoration: none;
     list-style: none;
     font-size: .9em;
     margin: 4vh;
-    
-
+    z-index: -1;    
 }
 
 
 ul li img{
-position: absolute;
-right:250px;
-
+ position: absolute;
+ right:250px;
 }
+
+
+
+
 
 .jumbotron h1 {
     font-size: 5em;
@@ -45,7 +50,7 @@ right:250px;
     right: -2rem;
     margin-top: -2rem;
     width: 65vh;
-    height: 100vh;
+    height: 98vh;
     background-color: #fe043c;
 }
 
@@ -54,7 +59,7 @@ right:250px;
 .jumbotron .comida{
     position: absolute;
     width: 500px;
-    margin: -400px 500px;
+    margin: -500px 500px;
     right:-20rem ;
 }
 
@@ -68,46 +73,143 @@ right:250px;
     font-size: 3em;
 }
 
-.jumbotron  .btn-one{
-    
-    background-color: white;
-    padding: 5px 90px;
-    border:  1px solid;
-    margin: 25px 80px;
-    height: 40px;
-    font-size: .8em;   
-       
-}
 
 
-.jumbotron .btn-two{
- position: absolute; 
-text-align: center;
-margin:-64px 0px 0px 325px;   
 
-}
-
-
-.btn-two{
-    color: white;
-    background-color: #fe043c;
-    border: 1px solid red;
-    border-radius: 10px 0px 0px 10px;
-    padding: 5.5px 30px;
-    
-}
-
-
-.jumbotron .opciones{
-    margin-left: 90px;
-    margin-top: 0px;
+.jumbotron .text1{
+    padding: 14px 40px;
     font-size: 2em;
-    font-weight:lighter;
+}
+
+ 
+.jumbotron .btn1{
+    background-color: #fe043c;
+    border: 1px solid #fe043c;
+    border-radius: 4px;
+    padding: 14px 40px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sec2{
+    background-color:#fff5ec;
+}
+
+ h3{
+   text-align: center;
+   background-size: cover;
+   background-attachment: fixed;
+   padding-top: 5rem;
+    font-size: 2em;
+    
     color: #2e266f;
 
 }
 
 
+
+ .btn {
+    background-color: white;
+    border: 1px solid #fe043c;
+    color: #2e266f;
+    padding: 0.5rem;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+ .btn--block {
+    display: block;
+    width:100%
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.cards_item{
+    display: flex;
+    padding: 15px;
+}
+
+.card{
+    background-color:#fff5ec ;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0,0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.card_content{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card_image{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius:0.25rem;
+    border-top-right-radius:0.25rem;
+    filter: contrast(70%);
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+
+    }
+
+    .card_image--ham{
+        padding: 5px;
+        height: 200px;
+        width: 100%;
+        background-image: url(./assets/eaters-collective-ESmxug33C0c-unsplash.jpg);
+    }
+
+    .card_image--pizza{
+        padding: 5px;
+        height: 200px;
+        width: 100%;
+        background-image: url(./assets/pizza.jpg);
+    }
+
+    .card_image--umesh{
+        padding: 5px;
+        height: 200%;
+        width: 100%;
+        background-image: url(./assets/umesh-soni-g1qlhFbWPKg-unsplash.jpg);
+    }
+
+    .card_title{
+        
+        color: #2e266f;
+        font-size: 1.25rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+
+    .card_text{
+        flex: 1 1 auto;
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+
+
+
+
+ 
+  
+  
 
 
 /*seccion 2*/
