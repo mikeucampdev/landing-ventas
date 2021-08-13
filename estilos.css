@@ -50,8 +50,10 @@ ul li img{
     right: -2rem;
     margin-top: -2rem;
     width: 65vh;
-    height: 98vh;
+    height: 104vh;
     background-color: #fe043c;
+    display: inline-block;
+  
 }
 
 
@@ -88,11 +90,11 @@ ul li img{
     border-radius: 4px;
     padding: 14px 40px;
     margin: 20px 40px;
-    display: flex;
-    justify-content: center;
+   
 }
 
 
+/*seccion 2*/
 .sec2{
     background-color:#fff5ec;
 }
@@ -128,13 +130,14 @@ ul li img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
-    margin: 0;
-    padding:0;
+    margin-bottom:  40px;
+
 }
 
 .cards_item{
     display: flex;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 .card{
@@ -168,24 +171,24 @@ ul li img{
     }
 
     .card_image--ham{
-        padding: 5px;
+        object-fit: cover;
         height: 200px;
         width: 100%;
-        background-image: url(./assets/eaters-collective-ESmxug33C0c-unsplash.jpg);
+        background-image: url(./assets/ham.jpg);
     }
 
     .card_image--pizza{
-        padding: 5px;
+        object-fit: cover;
         height: 200px;
         width: 100%;
         background-image: url(./assets/pizza.jpg);
     }
 
     .card_image--umesh{
-        padding: 5px;
-        height: 200%;
+        object-fit: cover;
+        height: 200px;
         width: 100%;
-        background-image: url(./assets/umesh-soni-g1qlhFbWPKg-unsplash.jpg);
+        background-image: url(./assets/umesh.jpg);
     }
 
     .card_title{
@@ -204,6 +207,52 @@ ul li img{
         line-height: 1.5;
     }
 
+/*footer*/
+.titulo-foot h5{
+    color:#2e266f;
+   text-align: center;
+    font-size: 2em;
+    margin-top: 200px;
+}
+
+.footer p {
+    font-size: 0.6em;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.btn-foot .btn1{
+    background-color: #fe043c;
+    border: 1px solid #fe043c;
+    border-radius: 20px;
+    padding: 10px 60px;
+    margin-left:560px;
+    position: absolute;
+    color: #fff5ec;
+}
+   
+
+ .footer img{
+   position: initial;
+    width: 50%;
+    height: 50%;
+    margin-top: -300px;
+    margin-left: -200px;
+    
+    
+  
+
+   
+    
+}
+    
+
+
+
+
+
+
+
 
 
 
@@ -212,7 +261,7 @@ ul li img{
   
 
 
-/*seccion 2*/
+
 
 
  
