@@ -61,7 +61,7 @@ ul li img{
 .jumbotron .comida{
     position: absolute;
     width: 500px;
-    margin: -500px 500px;
+    margin: -400px 500px;
     right:-20rem ;
 }
 
@@ -91,6 +91,7 @@ ul li img{
     padding: 14px 40px;
     margin: 20px 40px;
    
+    color: #fff5ec;
 }
 
 
@@ -113,9 +114,9 @@ ul li img{
 
 
  .btn {
-    background-color: white;
+    background-color: #fe043c;
     border: 1px solid #fe043c;
-    color: #2e266f;
+    color: #fff5ec;
     padding: 0.5rem;
     margin: 10px;
     text-transform: uppercase;
@@ -234,18 +235,48 @@ ul li img{
 
  .footer img{
    position: initial;
-    width: 50%;
-    height: 50%;
+    width: 55%;
+    height: 80%;
     margin-top: -300px;
-    margin-left: -200px;
-    
-    
-  
-
-   
+    margin-left: -300px;
+    margin-bottom: 0px;
+     
     
 }
+
+
+.submenu ul, li,a{
+color: black;
+display: flex;
+justify-content: center;
+text-decoration: none;
+list-style: none;
+font-size: .9em;
+margin-top: 30px;
+
+}
+
+.celular img{
+ width: 40%;
+ height: 45%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: -500px;
+ 
+ 
+}
+
+.copy p{
+    margin-top:90px;
+    margin-right: 90px ;
+    text-align: right;
+    font-size: .8em;
     
+
+}
+
+
 
 
 
