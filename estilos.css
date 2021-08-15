@@ -116,6 +116,7 @@ ul li img{
  .btn {
     background-color: #fe043c;
     border: 1px solid #fe043c;
+    border-radius: 20px;
     color: #fff5ec;
     padding: 0.5rem;
     margin: 10px;
@@ -262,13 +263,13 @@ margin-top: 30px;
  display: block;
  margin-left: auto;
  margin-right: auto;
- margin-top: -500px;
+ margin-top: -600px;
  
  
 }
 
 .copy p{
-    margin-top:90px;
+    margin-top:190px;
     margin-right: 90px ;
     text-align: right;
     font-size: .8em;
